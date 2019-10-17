@@ -1,0 +1,97 @@
+# Palette Picker Submission Form
+
+ [Project Spec](http://frontend.turing.io/projects/palette-picker.html)
+
+ # Basics
+
+ #### Link to the GitHub Repository for the BE
+[palette-picker BE](https://github.com/kawilliams8/palette-picker-api)
+
+ #### Link to the Deployed BE
+[heroku BE](http://palette-picker-api-williams.herokuapp.com/)
+
+ #### Link to the GitHub Repository for the FE
+[palette-picker FE](https://github.com/davidagitlen/palette-picker)
+
+ #### Link to the Deployed FE
+[heroku FE](https://palette-picker-dg.herokuapp.com/)
+
+ ## Completion
+
+ #### Were you able to complete the base functionality?
+
+ Yes, we completed everything outlined in the spec. 
+
+ #### Link to an image of your wireframe(s)
+ 
+- https://github.com/davidagitlen/palette-picker/blob/readme/src/images/wireframe.png
+
+ #### Which extensions, if any, did you complete?
+ 
+ - N/A
+
+ # Code Quality
+
+ #### Link to a specific block of your code on GitHub (from either repository) that you are proud of
+ 
+[happy code frontend](https://github.com/davidagitlen/palette-picker/blob/master/src/util/apiCalls.js#L139-L148)
+[happy code backend](https://github.com/kawilliams8/palette-picker-api/blob/master/app.js#L34-L53)
+
+ * Why were you proud of this piece of code?  
+ 
+- We figured it was harder to search for any individual hex than just the name of one of the palettes/projects, but thought that it was a better user experience, and we got to stretch out our Knex syntax a little with orWhere queries to the database. 
+
+ #### Link to a specific block of your code on GitHub that you feel not great about
+ 
+[sad code](https://github.com/kawilliams8/palette-picker-api/blob/master/app.js#L13-L22)
+
+ * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+ 
+ We were not initially able to get the whitelist to work with cors, and we did not have time to come back to it. There are a few issues open on the githubs for things we want to change/touch again. 
+ 
+ #### Link to Design Inspiration
+
+ * Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it  
+[design inspiration](https://github.com/davidagitlen/palette-picker/blob/readme/src/images/sample_diagram.png)    
+
+- We took the overall idea of schema/tables and tried to implement it throughout the form and the display of the linked projects/palettes in order to tie the learning goals of the project to the interface. 
+
+ #### Reflection on New Concepts
+
+ * Describe your thoughts on server-side testing  
+ 
+- It's still a little unfamiliar, of course, but it feels a lot more straight-forward than a lot of front end testing with React and async functions.
+
+* Describe your thoughts on TravisCI  
+
+- It runs pretty well once it is set up, although that process was a little tricky, and it is very interesting to see it kick off builds on pushing branches and merging into master, as well as how many builds succeed compared to the total number of kick offs. 
+
+* Describe your thoughts in creating a single project whose codebase was distributed across multiple repositories
+
+- It was very satisfying to build both sides, this feels like one of the first "real" projects we have made, and revealed how much thought and consideration has to go into coordinating the back and front ends. 
+
+#### Please feel free to ask any other questions or make any other statements below!
+
+
+ -----
+
+
+ # Instructor Feedback (Instructor Name)
+
+ ## Specification Adherence
+
+ **x score**: 
+
+ ## User Interface
+
+ **x score**: 
+
+ ## Testing
+
+ **x score**: 
+
+ ## Workflow
+
+ **x score**: 
+
+ # Outcome: pass/fail
